@@ -1,0 +1,55 @@
+{
+   "name": "Message Actions",
+   "version": "22.1.0",
+   "description": "Show or hide success and error messages declaratively.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll UC plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EUC - Message Actions\u003C\/strong\u003E dynamic action plug-in is an easy and declarative way to deal with APEX success and error messages. It can show errors inline with fields and in notifications, as well as showing page level messages that look the same as regular APEX page notifications. Internally we use the same Javascript API that APEX provides to show these messages.\u003C\/p\u003E\r\n\u003Cp\u003EThe message can be a static string with optional page item substitutions, or derived from a Javascript expression or function.\u003C\/p\u003E\r\n\u003Cp\u003EYou also have control over how escaping should be performed on the message. Either entirely, or only for certain page items if your message contains HTML markup.\u003C\/p\u003E",
+   "keywords": [
+      "message",
+      "notification",
+      "success",
+      "error",
+      "alert"
+   ],
+   "license": "MIT",
+   "commercial": "No",
+   "commercially_supported": "Yes",
+   "homepage": "https:\/\/github.com\/foex-open-source\/uc-message-actions",
+   "bugs": {
+      "url": "https:\/\/github.com\/foex-open-source\/uc-message-actions\/issues",
+      "email": "support@uc.world"
+   },
+   "author": {
+      "name": "UC GmbH",
+      "email": "office@uc.world",
+      "url": "https:\/\/foex.at\/uc\/",
+      "twitter": "@foexopensource"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https:\/\/github.com\/foex-open-source\/uc-message-actions.git"
+   },
+   "oracle": {
+      "versions": [
+         "12.1.0.1",
+         "12.2.0.1",
+         "18.0.0.0",
+         "19.0.0.0",
+         "21.0.0.0"
+      ],
+      "apex": {
+         "versions": [
+            "19.2.0",
+            "20.1.0",
+            "20.2.0",
+            "21.1.0",
+            "21.2.0",
+            "22.1.0"
+         ],
+         "plugin": {
+            "internalName": "UNITEDCODES_MESSAGE_ACTIONS",
+            "type": "dynamic action",
+            "demo": "https:\/\/uc.world\/ords\/f?p=10000:1030",
+            "previewImage": "https:\/\/uc.world\/ords\/uc_master_ws\/uc-image\/COM.UC.MESSAGE_ACTIONS"
+         }
+      }
+   }
+}
